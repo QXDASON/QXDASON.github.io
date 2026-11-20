@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <!-- Geeft aan dat we HTML5 gebruiken -->
+    <meta charset="UTF-8">
+
+    <!-- Zorgt ervoor dat de website goed werkt op mobiele apparaten -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proefwebsite</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER: bovenkant van de website -->
+    <div class="header-nightsky">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">HOME</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">NEWS <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">FEATURES <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">DEMOS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1>Dit is onze Bootstrap header</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut tempor enim.</p>
+            <div class="btn btn-primary">Learn more about us</div>
+            <div class="btn btn-primary">Contact us</div>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- NAVIGATIE: het menu bovenaan -->
+    <nav>
+        <a href="info.html">Home</a>
+        <a href="#over">Over mij</a>
+        <a href="#contact">Contact</a>
+        <a href="https://obsdetoverlaars.nl/">School</a>
+        </nav>
+<div style="background-color: #FFD700; height: 50px; width: 100%;"></div>
+    <!-- MAIN: het belangrijkste gedeelte van de website -->
+    <main>
+
+        <!-- SECTION: een apart inhoudelijk onderdeel -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>
+                Dit is de homepage van mijn website.
+                Hier kan ik informatie, afbeeldingen
+                of andere onderdelen plaatsen.
+            </p>
+
+            <!-- Een knop die naar een ander onderdeel verwijst -->
+            <a href="#over" class="button">
+                Lees meer
+            </a>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Xi3oacKPPXOHXbGPuK_vHi1kmxen6BWm6WshB8y9kQ&s=10" height="256px" width="256px"></img>
+            <img src="/img/nightsky.jpg" height="256px" width="256px"></img>
+        </section>
+
+        <!-- SECTION: een tweede onderdeel -->
+        <section id="over">
+            <h2>Over mij</h2>
+            <p>
+                Hier kan ik iets over mezelf vertellen.
+                Bijvoorbeeld mijn hobby's, werk of interesses.
+            </p>
+        </section>
+
+        <!-- SECTION: contactgegevens -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Neem contact met mij op via:</p>
+            <a href="mailto:info@example.com">
+                info@example.com
+            </a>
+        </section>
+
+    </main>
+
+    <!-- FOOTER: de onderkant van de website -->
+    <footer>
+        <p>&copy; 2026 Mijn Website</p>
+    </footer>
+
+</body>
+</html>
